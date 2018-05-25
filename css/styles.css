@@ -1,16 +1,14 @@
 body {
-  background-color: blue;
-  color: white;
   display: grid;
   grid-template-rows: 150px 700px;
-  border: 1px solid black;
+  grid-template-columns: 100%;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 700px;
+  height: 1700px;
   width: 100%;
 }
 
