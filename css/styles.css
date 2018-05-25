@@ -1,7 +1,24 @@
 body {
   display: grid;
-  grid-template-rows: 150px 700px;
+  grid-template-rows: 65px 700px;
   grid-template-columns: 100%;
+}
+
+.header {
+  border-bottom: 1px solid lightgray;
+  display: flex;
+}
+
+.logo img {
+  width: 32px;
+}
+
+.searchbar input {
+  height: 25px;
+  border-radius: 4px;
+  background-color: #efefef;
+  color: #757575;
+  border: 1px solid transparent;
 }
 
 .container {
@@ -19,5 +36,5 @@ body {
 
 img {
   width: 250px;
-  border-radius: 10px;
+  border-radius: 8px;
 }
