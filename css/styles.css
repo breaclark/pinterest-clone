@@ -79,15 +79,27 @@ input {
 }
 
 .tile {
-  width: 250px;
-  margin: 10px;
+  width: 240px;
   display: flex;
   flex-direction: column;
+  position: relative;
+  padding: 10px;
+  border-radius: 8px;
 }
 
 .tile img {
-  width: 250px;
+  width: 240px;
   border-radius: 8px;
+}
+
+/* .tile .overlay {
+  display: none;
+  position: absolute;
+  z-index: 2;
+} */
+
+.tile:hover {
+  background-color: #efefef;
 }
 
 .tile-bottom {
@@ -97,7 +109,7 @@ input {
 
 .tile-bottom img{
   width: 10px;
-  margin-right: 4px;
+  margin-right: 14px;
   align-self: center;
 }
 
