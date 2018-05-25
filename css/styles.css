@@ -2,13 +2,15 @@ body {
   background-color: blue;
   color: white;
   display: grid;
-  grid-template-rows: 150px auto;
+  grid-template-rows: 150px 700px;
+  border: 1px solid black;
 }
 
 .container {
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 1000px;
+  height: 700px;
   width: 100%;
 }
 
