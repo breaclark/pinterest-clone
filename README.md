@@ -9,9 +9,11 @@
 1. Clone this repository
 2. Open index.html in a browser
 
-## Screenshots of Pinterest
+## Screenshot of Pinterest
+![pinterest screenshot](https://github.com/breatortilla/pinterest-clone/blob/master/img/Pinterest.png)
 
-## Screenshots of the clone
+## Screenshot of the clone
+![pinterest clone screenshot](https://github.com/breatortilla/pinterest-clone/blob/master/img/Pinterest-Clone.png)
 
 ## Known Bugs
 * No known bugs.
