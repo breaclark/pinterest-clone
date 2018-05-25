@@ -1,6 +1,6 @@
 body {
   display: grid;
-  grid-template-rows: 65px auto;
+  grid-template-rows: 60px auto;
   grid-template-columns: 100%;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -26,6 +26,10 @@ input {
   font-weight: bold;
   flex-grow: 1;
   margin: 20px;
+}
+
+.search-icon {
+  display: none;
 }
 
 .icons {
@@ -56,6 +60,7 @@ input {
 .container {
   display: flex;
   justify-content: center;
+  margin-top: 12px;
 }
 
 .tile-container {
@@ -84,9 +89,31 @@ input {
   align-self: center;
 }
 
+.tile-bottom p {
+  font-weight: 600;
+  color: #757575;
+  font-size: 14px;
+}
+
 img {
   width: 250px;
   border-radius: 8px;
+}
+
+@media screen and (max-width:595px) {
+  .icons {
+    flex-grow: 1;
+    justify-content: space-around;
+  }
+
+  .search-icon {
+    display: block;
+    margin: 0px 20px;
+  }
+
+  input {
+    display: none;
+  }
 }
 
 @media screen and (min-width:1145px) {
