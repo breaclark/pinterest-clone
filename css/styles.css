@@ -7,6 +7,7 @@ body {
 .header {
   border-bottom: 1px solid lightgray;
   display: flex;
+  justify-content: space-around;
 }
 
 .logo img {
@@ -19,6 +20,8 @@ body {
   background-color: #efefef;
   color: #757575;
   border: 1px solid transparent;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .icons img {
