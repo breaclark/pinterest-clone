@@ -99,7 +99,7 @@ input {
 .tile .overlay {
   display: none;
   position: absolute;
-  z-index: 2;
+  z-index: 1;
 }
 
 .tile:hover .overlay {
@@ -140,6 +140,30 @@ input {
   font-weight: 600;
   color: #757575;
   font-size: 14px;
+}
+
+.bottom-float {
+  font-weight: bold;
+  position: fixed;
+  bottom: 6px;
+  right: 20px;
+}
+
+.float-icon {
+  width: 22px;
+  height: 28px;
+  font-size: 20px;
+  background-color: #efefef;
+  padding: 0px;
+  padding-left: 9px;
+  border-radius: 20px;
+}
+
+#privacy {
+  width: 55px;
+  font-size: 13px;
+  border-radius: 6px;
+  padding-top: 4px;
 }
 
 @media screen and (max-width:595px) {
