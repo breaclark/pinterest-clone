@@ -46,6 +46,13 @@ input {
   text-decoration: none;
   color: #757575;
   font-weight: bold;
+  margin: 10px;
+  padding: 0px 3px;
+}
+
+.icons a:hover, .logo:hover {
+  background-color: #efefef;
+  border-radius: 20px;
 }
 
 #profile {
@@ -78,6 +85,11 @@ input {
   flex-direction: column;
 }
 
+.tile img {
+  width: 250px;
+  border-radius: 8px;
+}
+
 .tile-bottom {
   display: flex;
   justify-content: space-between;
@@ -93,11 +105,6 @@ input {
   font-weight: 600;
   color: #757575;
   font-size: 14px;
-}
-
-img {
-  width: 250px;
-  border-radius: 8px;
 }
 
 @media screen and (max-width:595px) {
