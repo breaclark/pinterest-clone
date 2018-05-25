@@ -54,7 +54,6 @@ input {
 }
 
 .container {
-  margin: 20px;
   display: flex;
   justify-content: center;
 }
@@ -63,7 +62,7 @@ input {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 100%;
+  width: 815px;
   height: 350vh;
 }
 
@@ -93,5 +92,6 @@ img {
 @media screen and (min-width:1145px) {
   .tile-container {
     height: 300vh;
+    width: 1080px;
   }
 }
