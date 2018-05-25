@@ -28,6 +28,11 @@ input {
   margin: 20px;
 }
 
+.icons {
+  display: flex;
+  align-items: center;
+}
+
 .icons img {
   width: 25px;
   margin: 20px;
@@ -37,6 +42,11 @@ input {
   text-decoration: none;
   color: #757575;
   font-weight: bold;
+}
+
+#profile {
+  display: flex;
+  align-items: center;
 }
 
 .profile-name {
