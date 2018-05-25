@@ -2,15 +2,18 @@ body {
   display: grid;
   grid-template-rows: 65px 700px;
   grid-template-columns: 100%;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .header {
   border-bottom: 1px solid lightgray;
   display: flex;
+  align-items: center;
 }
 
 .logo img {
   width: 32px;
+  margin: 20px;
 }
 
 input {
@@ -21,11 +24,23 @@ input {
   border: 1px solid transparent;
   font-size: 16px;
   font-weight: bold;
-  flex-grow: 1
+  flex-grow: 1;
+  margin: 20px;
 }
 
 .icons img {
   width: 25px;
+  margin: 20px;
+}
+
+.icons a {
+  text-decoration: none;
+  color: #757575;
+  font-weight: bold;
+}
+
+.profile-name {
+  color: #afafaf;
 }
 
 .container {
