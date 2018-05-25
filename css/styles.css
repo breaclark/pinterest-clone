@@ -13,12 +13,11 @@ body {
 }
 
 .tile {
-  height: 200px;
   width: 250px;
   margin: 20px;
-  background-color: lightpink;
 }
 
-.longer {
-  height: 300px;
+img {
+  width: 250px;
+  border-radius: 10px;
 }
