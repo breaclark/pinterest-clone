@@ -14,11 +14,15 @@ body {
 }
 
 .searchbar input {
-  height: 25px;
+  height: 36px;
   border-radius: 4px;
   background-color: #efefef;
   color: #757575;
   border: 1px solid transparent;
+}
+
+.icons img {
+  width: 25px;
 }
 
 .container {
