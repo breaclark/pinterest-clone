@@ -2,7 +2,7 @@
 
 #### A clone of Pinterest to practice CSS grid and Flex Box
 
-#### By **Brea Borlas**
+#### By **Brea Clark**
 
 ## Setup/Installation Requirements
 
@@ -28,4 +28,4 @@ _Email me at breatortilla@gmail.com for support_
 
 ### License
 
-Copyright (c) 2018 **_{Brea Borlas}_**
+Copyright (c) 2018 **Brea Clark**
